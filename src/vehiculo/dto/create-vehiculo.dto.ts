@@ -7,7 +7,5 @@ export class CreateVehiculoDto {
     modelo : number;
     @IsString()
     placa : string;
-    @IsString()
-    motor : string
 
 }
